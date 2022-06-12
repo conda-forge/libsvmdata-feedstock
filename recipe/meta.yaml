@@ -1,5 +1,5 @@
 {% set name = "libsvmdata" %}
-{% set version = "0.4" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/libsvmdata-{{ version }}.tar.gz
-  sha256: 02d15b169a06df4b7d4d188f023db8a57245f30e6430db2e9f8d8ccff016dbc4
+  sha256: a5e97193e73d5c1aed6180d17f7f2a09b8537a04d8062979d7b1b887d30bf9d5
 
 build:
   noarch: python
